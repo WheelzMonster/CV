@@ -1,0 +1,209 @@
+/* Cas généraux
+// ----------------------------------------- */
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('./../photos/background.jpg');
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Header
+------------------------------------------------------------------*/
+
+header {
+	height: 45px;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 1em;
+	width: 100%;
+	position: fixed;
+}
+
+.header_left {
+	position: absolute;
+	left: 1em;
+}
+
+.header_right {
+	position: absolute;
+	right: 3em;
+}
+
+.logo_img {
+	height: 60px;
+	width: 65px;
+	border-radius: 2em;
+	opacity: 1;
+}
+
+nav a {
+	display: inline-block;
+	border: 1px solid #222222;
+	padding: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	border: 1px solid #ffd504;
+	color: #ffd504;
+	transition: 1s;
+}
+
+/* Bloc d'introduction
+------------------------------------------------------------------*/
+
+.intro {
+	text-align: center;
+	color: #ffd504;
+	padding-top: 12em;
+	padding-bottom: 12em;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+p {
+	font-size: 1.5em;
+	text-align: justify;
+}
+
+/* Content
+------------------------------------------------------------------*/
+.wrapper {
+	width: 100%;
+	background-color: white;
+}
+
+section {
+	width: 60%;
+	margin: auto;
+	font-size: 1em;
+}
+
+section h2 {
+	text-align: center;
+	padding: 1em;
+}
+
+/* A propos
+------------------------------------------------------------------*/
+.negan_img {
+	width: 260px;
+	height: auto;
+	float: left;
+}
+
+.intro_text {
+	margin-left: 20em;
+	font-size: 14px;
+}
+
+/* Compétences
+------------------------------------------------------------------*/
+
+.skill_item {
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.skill_item img {
+	display: block;
+	margin: auto;
+	padding: 0.5em;
+	height: 175.98px;
+	width: 175.98px;
+}
+
+/* Experience
+------------------------------------------------------------------*/
+
+.experience_item {
+	width: 100%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.experience_item_date {
+	width: 25%;
+	display: inline-block;
+	text-align: center;
+	font-size: 25px;
+	vertical-align: middle;
+	background-color: #edf9ff;
+	height: 75px;
+	border-radius: 10px;
+}
+
+.experience_item_text {
+	width: 65%;
+	display: inline-block;
+	font-size: 1.5em;
+	background-color: #c1e5f4;
+	height: 75px;
+	margin-left: 30px;
+	border-radius: 10px;
+	vertical-align: middle;
+	padding: 0.5em;
+}
+
+/* Hobbies
+------------------------------------------------------------------*/
+
+.lang_part {
+	display: inline-block;
+	width: 45%;
+	vertical-align: middle;
+	font-size: 1.5em;
+}
+
+.hobbies_part {
+	display: inline-block;
+	width: 45%;
+	font-size: 1.5em;
+	vertical-align: middle;
+}
+
+/* Contact me
+------------------------------------------------------------------*/
+
+#adresse {
+	display: inline-block;
+}
+#adresse a {
+	color: #ffd504;
+	text-decoration: none;
+}
+#adresse a:hover {
+	text-decoration: underline;
+}
+
+#contactme {
+	color: #ffd504;
+}
+
+/* Footer
+------------------------------------------------------------------*/
+
+footer {
+	height: 30px;
+	background-color: rgba(30, 30, 30, 1);
+	padding: 1em;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
